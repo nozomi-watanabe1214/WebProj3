@@ -12,7 +12,7 @@ public class HelloStrutsDAO {
 	public HelloStrutsDTO select(){
 		 DBConnector db = new DBConnector();
 		 Connection con = db.getConnection();
-		 HelloStrutsDTO dto=new HelloStrutsDTO();
+		 HelloStrutsDTO dto = new HelloStrutsDTO();
 
 		 String sql = "select * from users";
 		 try{
