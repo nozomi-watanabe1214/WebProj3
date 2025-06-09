@@ -5,4 +5,4 @@
  * @author 渡辺のぞみ
  *
  */
-package com.diworks.webproj3.dao;
+package com.diworksdev.webproj3.dao;

@@ -1,12 +1,13 @@
 package com.diworksdev.webproj3.action;
 
-import com.diworks.webproj3.dao.HelloStrutsDAO;
+import com.diworksdev.webproj3.dao.HelloStrutsDAO;
 import com.diworksdev.webproj3.dto.HelloStrutsDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class HelloStrutsAction extends ActionSupport{
 
 	private String result;
+
 	 public String execute() {
 		 String ret=ERROR;
 		 HelloStrutsDAO dao = new HelloStrutsDAO();
