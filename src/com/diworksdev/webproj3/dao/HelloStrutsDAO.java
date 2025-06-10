@@ -18,6 +18,7 @@ public class HelloStrutsDAO {
 		 try{
 			 PreparedStatement ps = con.prepareStatement(sql);
 			 ResultSet rs = ps.executeQuery();
+
 			 if (rs.next()){
 				 dto.setResult("MySQLと接続できます。");
 				 } else{

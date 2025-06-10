@@ -18,7 +18,7 @@ public class HelloStrutsAction extends ActionSupport{
 		 System.out.println(dto.getResult());
 		 result=dto.getResult();
 
-		 if(result.equals("MySQL と接続できます。")){
+		 if(result.equals("MySQLと接続できます。")){
 			 ret=SUCCESS;
 			 }else{
 				 ret=ERROR;

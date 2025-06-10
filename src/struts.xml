@@ -12,7 +12,7 @@
   <result name="error">helloStrutsError.jsp</result>
   </action>
 
-  <action name="WelcomeAction" class="com/diworksdev.webproj3.action.WelcomeAction" method="execute">
+  <action name="WelcomeAction" class="com.diworksdev.webproj3.action.WelcomeAction" method="execute">
   <result name="success">welcome.jsp</result>
   </action>
   </package>
